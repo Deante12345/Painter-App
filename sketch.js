@@ -4,7 +4,7 @@ let currentColor = 'black'; // Default color
  
 function setup() {
   let cnv = createCanvas(900, 900);
- 
+ strokeWeight(12);
   // Create red button
   redButton = createButton('');
   redButton.position(0,5);
@@ -31,37 +31,37 @@ function setup() {
   greenButton.style('background-color', 'green');
  
   lightBlueButton = createButton('');
-  lightBlueButton.position(0,150);
+  lightBlueButton.position(0,200);
   lightBlueButton.size(50,50);
   lightBlueButton.mousePressed(setlightBlueColor);
   lightBlueButton.style('background-color', color(100,200,300));
  
   blueButton = createButton('');
-  blueButton.position(0,200);
+  blueButton.position(0,250);
   blueButton.size(50,50);
   blueButton.mousePressed(setBlueColor);
   blueButton.style('background-color', 'Blue');
  
   purpleButton = createButton('');
-  purpleButton.position(0,250);
+  purpleButton.position(0,300);
   purpleButton.size(50,50);
   purpleButton.mousePressed(setPurpleColor);
   purpleButton.style('background-color', 'purple');
  
   brownButton = createButton('');
-  brownButton.position(0,300);
+  brownButton.position(0,350);
   brownButton.size(50,50);
   brownButton.mousePressed(setBrownColor);
   brownButton.style('background-color', color(119,66,21));
  
   whiteButton = createButton('');
-  whiteButton.position(0,350);
+  whiteButton.position(0,400);
   whiteButton.size(50,50);
   whiteButton.mousePressed(setWhiteColor);
   whiteButton.style('background-color', 'white');
  
   blackButton = createButton('');
-  blackButton.position(0,400);
+  blackButton.position(0,450);
   blackButton.size(50,50);
   blackButton.mousePressed(setBlackColor);
   blackButton.style('background-color', 'black');
